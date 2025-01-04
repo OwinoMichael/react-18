@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../assets/images/logo.png';
 import { NavLink } from 'react-router-dom';
 
+
 const Navbar = () => {
 
   const linkClass = ({isActive}) => isActive ? 'bg-black text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2' 
@@ -38,7 +39,7 @@ const Navbar = () => {
                   >Jobs
                 </NavLink>
                 <NavLink
-                  to="/add-job"
+                  to="/add-jobs"
                   className={ linkClass }
                   >Add Job
                 </NavLink>
